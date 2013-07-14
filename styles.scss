@@ -70,7 +70,7 @@ body{
 	border: #000000 solid 3px ;
 	
 	// Nested Rule
-	:hover {
+	&:hover {
 		border-color: #CCCCCC;
 		@include btn-gradient(bottom, 0.3);
 	}
